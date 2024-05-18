@@ -6,7 +6,7 @@ export function BotonComponent(label: string) {
   const {contador,setContador} = useContadorStore()
 
   function click(){
-    setContador(contador+1)
+    setContador(contador+1) 
   }
   return (
     <>
